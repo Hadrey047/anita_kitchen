@@ -1,0 +1,21 @@
+#landing{
+    align-items: center;
+    
+    
+
+}
+
+p{
+    text-align: center;
+    font-size: larger;
+    color: white;
+}
+
+img{
+    align-items: center;
+}
+
+section {
+    background-image: url(Anita/backgrounds/landing.jpg)
+    
+}
