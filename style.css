@@ -1,3 +1,4 @@
+
 #landing{
     align-items: center;
     
@@ -7,8 +8,9 @@
 
 p{
     text-align: center;
-    font-size: larger;
+    font-size:30px;
     color: white;
+    
 }
 
 img{
@@ -18,4 +20,42 @@ img{
 section {
     background-image: url(Anita/backgrounds/landing.jpg)
     
+}
+
+.container { 
+    display: flex;
+    position: relative;
+    float: 100px;
+    flex-direction: row;
+    
+}
+
+.hour {
+    padding: 100px;
+}
+
+.breakfast {
+    background-image: url(Anita/foodtop/breakfast.jpg);
+    padding: 100px;
+    background-repeat: no-repeat;
+}
+    
+    
+
+.lunch {
+    background-image: url(Anita/foodtop/lunch.jpg);
+    padding: 100px;
+    background-repeat: no-repeat;
+}
+
+.dinner {
+    background-image: url(Anita/foodtop/dinner.jpg);
+    padding: 100px;
+    background-repeat: no-repeat;
+}
+
+.row {
+    display: flex;
+    padding: 100px;
+    align-items: center;
 }
