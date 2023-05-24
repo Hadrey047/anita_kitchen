@@ -56,6 +56,10 @@ section {
 
 .row {
     display: flex;
-    padding: 100px;
+    padding-inline-start: 30px;
     align-items: center;
+}
+
+.columns2{
+    
 }
