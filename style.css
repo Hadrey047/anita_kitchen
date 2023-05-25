@@ -44,22 +44,28 @@ section {
 
 .lunch {
     background-image: url(Anita/foodtop/lunch.jpg);
-    padding: 100px;
-    background-repeat: no-repeat;
+ 
 }
 
 .dinner {
     background-image: url(Anita/foodtop/dinner.jpg);
-    padding: 100px;
-    background-repeat: no-repeat;
+   
 }
 
 .row {
     display: flex;
-    padding-inline-start: 30px;
-    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+   
 }
 
-.columns2{
+.main {
+    margin: 10px;
+    height: 100px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ;
+    width: 100px;
+    text-align: center;
+  }
+ 
+
     
-}
+}                                                                                                                                                   
