@@ -1,71 +1,160 @@
 
 #landing{
-    align-items: center;
-    
-    
-
-}
-
-p{
+    display: flex; 
     text-align: center;
-    font-size:30px;
-    color: white;
-    
-}
-
-img{
     align-items: center;
 }
+
 
 section {
-    background-image: url(Anita/backgrounds/landing.jpg)
-    
+    background-image: url(Anita/backgrounds/landing.jpg);
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-size:30px;
+
 }
 
 .container { 
     display: flex;
-    position: relative;
-    float: 100px;
-    flex-direction: row;
-    
-}
+    color: white;
+    font: 20px;
+    text-align: center;
+    margin-top: 0;
+  
+ }
 
 .hour {
-    padding: 100px;
+
+    width: 25%;
 }
 
 .breakfast {
     background-image: url(Anita/foodtop/breakfast.jpg);
-    padding: 100px;
+    width: 25%;
     background-repeat: no-repeat;
 }
-    
     
 
 .lunch {
     background-image: url(Anita/foodtop/lunch.jpg);
- 
+    width: 25%;
+    background-repeat: no-repeat;
 }
-
+ 
 .dinner {
     background-image: url(Anita/foodtop/dinner.jpg);
-   
+    width: 25%;
+    background-repeat: no-repeat;
 }
+   
+
 
 .row {
     display: flex;
-    padding-left: 40px;
-    padding-right: 40px;
-   
+    float: right;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 30%;
 }
 
-.main {
-    margin: 10px;
-    height: 100px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ;
-    width: 100px;
-    text-align: center;
-  }
- 
+.column1 {
+    width: 40%;
+    border: 20px;
+    border-color: #F15A29;
+}
 
-    
-}                                                                                                                                                   
+.column2 {
+    width: 40%;
+    padding-left: 15%;
+}
+
+.column3 {
+    width: 40%;
+    border: 20px;
+    border-color: #F15A29;
+    text-align: right;
+}
+
+.column4 {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.middle {
+    display: flex;
+    float: auto;
+}
+
+
+
+
+button {
+    color: #F15A29;
+    border-color: #F15A29;
+    background-color: white;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left
+  }
+
+  li {
+    list-style: ;
+  }
+
+  .below{
+   display: flex;
+   float: left;
+   padding-top: 5%;
+   padding-left: 300px;
+   padding-right: 100px;
+   align-content: center;
+   justify-content: center;
+   text-align: center;
+   font-size: larger;
+   
+  }
+
+  .one {
+    height: 50px;
+    background-color:white;
+    width: 190px;
+    color: #F15A29;
+  }
+  
+  .two {
+    height: 50px;
+    background-color: silver;
+    width: 190px;
+  }
+  
+
+  .three {
+    height: 50px;
+    background-color: silver;
+    width: 190px;
+  }
+  
+  .four {
+    height: 50px;
+    background-color: silver;
+    width: 190px;
+  }
+
+  .below_image {
+    display: flex;
+    float: left;
+  }
+
+  .img1{
+    background-image: url(Anita/fastfood/beefBurger.jpg);
+  }
+
+
+                                                                                                                                                    
